@@ -19,6 +19,5 @@ normalize.css -> Revert all browser defaults <br>
 base.css -> Properties that must be inherited into all <br>
 layout.css -> Layouts and containers to hold elements with proper alignment <br>
 components -> All reusable commonly used components <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp; button.css -> Button component
-&nbsp;&nbsp;&nbsp;&nbsp; modal.css -> Modal component, etc.
+&nbsp;&nbsp;&nbsp;&nbsp; button.css -> Button component <br>
+&nbsp;&nbsp;&nbsp;&nbsp; modal.css -> Modal component, etc. <br>
