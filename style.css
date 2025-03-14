@@ -1,0 +1,13 @@
+/* Import all the main stylesheets */
+@import url(lib/base.css);
+@import url(lib/layout.css);
+@import url(lib/components/button.css);
+
+#toolbar {
+  background: blue;
+  color: white;
+}
+
+#toolbar a {
+  color: inherit;
+}
