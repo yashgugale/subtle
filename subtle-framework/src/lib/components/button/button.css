@@ -1,0 +1,8 @@
+/* Styling for buttons */
+.btn {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 8px 10px;
+	/* cursor: pointer; */
+}
