@@ -9,13 +9,12 @@
 	overflow: hidden;
 	padding: 10px 20px;
 	letter-spacing: 1px;
+	background-color: rgba(0, 0, 0, 0.8);
+
 	/* TODO: make background of nav bar a bit transparent so when scrolling it looks nice */
 	position: sticky; /* Fixed position */
 	top: 0; /* Stick to the top */
 
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-evenly; */
 	display: grid;
 	/* grid-template-columns: 1fr 8fr 2fr;  Use this if you want space for Login/Signup */
 	grid-template-columns: 1fr 8fr;
