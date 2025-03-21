@@ -1,0 +1,65 @@
+/* 
+ position
+ size
+ font
+ color
+ */
+
+.navbar {
+	overflow: hidden;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	/* TODO: make background of nav bar a bit transparent so when scrolling it looks nice */
+	position: sticky; /* Fixed position */
+	top: 0; /* Stick to the top */
+
+	/* display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; */
+	display: grid;
+	/* grid-template-columns: 1fr 8fr 2fr;  Use this if you want space for Login/Signup */
+	grid-template-columns: 1fr 8fr;
+	/* justify-items: center; */
+}
+
+.navbar-brand {
+	display: flex;
+	/* text-align: center; */
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+	font-size: x-large;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.brand {
+	color: white;
+}
+
+.navbar-links {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-evenly; */
+}
+
+.navbar-link {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+	margin: 0 8px;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
+	/* text-shadow: 2px 2px 5px rgb(255, 0, 0); */
+	/* box-shadow: 2px 2px 5px rgba(0, 34, 255, 0.47); */
+}
+
+.navbar a.active {
+	/* background-color: #4caf50; */
+	text-decoration: underline;
+}

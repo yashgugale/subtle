@@ -6,30 +6,32 @@ and setting global styles that apply to all elements unless overridden. */
 /* The browser adds a small default margin of 8px to the body */
 /* More details here: https://grok.com/share/bGVnYWN5_912ccd79-9d90-4fc0-806c-3a24e061cf78 */
 * {
-  margin: 0;
-  padding: 0;
-  /* This property is used to alter the default CSS box model used to calculate width and height of the elements */
-  /* box-sizing: border-box; */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* This property is used to alter the default CSS box model used to calculate width and height of the elements */
+	/* box-sizing: border-box; */
 }
 
 /* Makes scrolling to anchors (e.g., <a href="#section">) smooth instead of jumpy. */
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
+	background-color: #000000;
 }
 
 /* Base styles */
 body {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  /* line-height: 1.6; */
-  /* color: #333; */
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	/* line-height: 1.6; */
+	/* color: #333; */
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
+	color: #007bff;
+	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
