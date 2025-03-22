@@ -14,7 +14,7 @@
 </script>
 
 <div class="login">
-	<div class="login-content">
+	<form class="login-content">
 		<div class="login-header">
 			<h1>{loginTitle}</h1>
 			<div>{loginDescription}</div>
@@ -31,8 +31,8 @@
 				</div>
 				<Input type="password" placeholder={passwordPlaceholder} />
 			</div>
-			<Button text="Login" />
+			<Button text="Login" type="submit" />
 			<div class="no-account">{newUserText} <a class="signup-link">{signUpLink}</a></div>
 		</div>
-	</div>
+	</form>
 </div>

@@ -1,6 +1,10 @@
 <script lang="ts">
 	import './button.css';
-	let { text = 'Default' } = $props();
+	// let { text = 'Default', btnType = 'button' } = $props();
+	let {
+		text = 'Default',
+		type = 'button'
+	}: { text?: string; type?: 'button' | 'submit' | 'reset' } = $props();
 </script>
 
-<button class="btn">{text}</button>
+<button class="btn" {type}>{text}</button>
